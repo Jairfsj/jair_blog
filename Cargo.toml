@@ -3,6 +3,10 @@ name = "jair_blog"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "jair_blog"
+path = "src/lib.rs"
+
 [dependencies]
 tera = "1"
 actix-web = "4"
