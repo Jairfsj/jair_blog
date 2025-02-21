@@ -1,5 +1,5 @@
 use std::net::TcpListener;
-use jair_blog::blog::start;
+use jair_blog::start;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
