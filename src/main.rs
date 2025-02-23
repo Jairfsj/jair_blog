@@ -45,7 +45,7 @@
 //}
 
 use std::net::TcpListener;
-use actix_web::{dev::Server, web, App, HttpResponse, HttpServer, Responder, middleware};
+use actix_web::{dev::Server, web, App, HttpResponse, HttpServer, middleware};
 use tera::Tera;
 
 mod handlers;
